@@ -1,0 +1,213 @@
+body {
+    background-color: #c0c0c0;
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+  }
+
+.header {
+   background: linear-gradient(to right, white 20%, #FFAB00);
+   padding: 5px;
+  }
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+
+.nav ul {
+   list-style: none;
+   display: flex;
+  }
+
+.nav li {
+   margin-right: 10px;
+  }
+
+.nav li:last-child {
+   margin-right: 0;
+  }
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-image {
+   background-image: url("https://abrakadabra.fun/uploads/posts/2021-12/thumbs/1639257797_57-abrakadabra-fun-p-vizitki-resnitsi-60.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+.hero-image h1 {
+   color: #9FEE00;
+   font-size: 48px;
+   margin: 0;
+   text-shadow: 2px 2px #333;
+  }
+
+.services {
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+  }
+
+.service1 {
+   margin-bottom: 20px;
+   width: calc(33.33% - 10px);
+   background-color: #E467B3;
+   padding: 20px;
+   box-sizing: border-box;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+   transition: all 0.3s;
+   cursor: pointer;
+  }
+
+.service2 {
+   margin-bottom: 20px;
+   width: calc(33.33% - 10px);
+   background-color: #E439A1;
+   padding: 20px;
+   box-sizing: border-box;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+   transition: all 0.3s;
+   cursor: pointer;
+  }
+
+.service3 {
+   margin-bottom: 20px;
+   width: calc(33.33% - 10px);
+   background-color: #C9007A;
+   padding: 20px;
+   box-sizing: border-box;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+   transition: all 0.3s;
+   cursor: pointer;
+  }
+
+.service:hover {
+   transform: translateY(-5px);
+   box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+  }
+
+.service h2 {
+   font-size: 24px;
+   margin-top: 0;
+   margin-bottom: 10px;
+  }
+
+.service p {
+   margin: 0;
+  }
+
+.contact {
+   background-color: #FFAB00;
+   padding: 20px;
+  }
+
+.contact h2 {
+   margin-top: 0;
+  }
+
+.contact p {
+   margin-bottom: 10px;
+  }
+
+.contact form {
+   display: flex;
+   flex-direction: column;
+  }
+
+.contact input {
+   margin-bottom: 10px;
+   padding: 10px;
+   font-size: 16px;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+
+.contact textarea {
+   margin-bottom: 10px;
+   padding: 10px;
+   font-size: 16px;
+   border-radius: 5px;
+   border: none;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+   resize: none;
+   height: 100px;
+  }
+
+.contact button {
+   background-color: #4caf50;
+   color: #fff;
+   border: none;
+   padding: 10px;
+   font-size: 16px;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+   cursor: pointer;
+   transition: all 0.3s;
+  }
+
+.contact button:hover {
+   background-color: #3e8e41;
+  }
+
+.about {
+   display: flex;
+   align-items: center;
+   margin: 20px;
+   padding: 20px;
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+
+.about img {
+   height: 500px;
+   width: 500px;
+   border-radius: 20%;
+   margin-right: 20px;
+   box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  }
+
+.about p {
+   margin: 0;
+   font-size: 16px;
+  }
+
+footer {
+  background-color: #222;
+  color: white;
+  padding: 0px 0;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.contact h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.contact p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.contact a {
+  color: #fff;
+}
